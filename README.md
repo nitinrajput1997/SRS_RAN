@@ -30,3 +30,14 @@ sudo make install
 sudo ldconfig
 sudo uhd_images_downloader
 ```
+
+### Download and build srsRAN
+```
+git clone https://github.com/srsran/srsRAN_Project.git
+cd srsRAN_Project
+mkdir build
+cd build
+cmake ..
+make
+make test
+```
